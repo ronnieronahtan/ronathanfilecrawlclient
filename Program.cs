@@ -63,7 +63,7 @@ namespace ConsoleApp1
                 }
                 var AuthenticationType = "JWT";
                 var client = new HttpClient();
-                var authHeader = "Basic "+createBasicAuthHeader("beta@ronathan.ai", "ronathan");
+                var authHeader = "Basic "+createBasicAuthHeader("CHANGEME", "CHANGEME");
                 var accessToken2 = "";
                 if (AuthenticationType == "keycloak")
                 {
