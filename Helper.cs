@@ -71,8 +71,8 @@ namespace ronathanFileCrawler
             //create a json onject with the email and password
             var json = JsonSerializer.Serialize(new
             {
-                email = "beta@ronathan.ai",
-                password = "ronathan"
+                email = "CHANGEME",
+                password = "CHANGEME"
             });
 
             var request = new HttpRequestMessage
